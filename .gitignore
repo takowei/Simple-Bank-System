@@ -1,0 +1,30 @@
+## 2. .gitignore
+```
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# 測試資料
+test_data/
+manual_test_data/
+integration_test_data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 資料檔案（可選，如果想讓每個人有自己的資料）
+# data/*.json
