@@ -247,3 +247,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"\n❌ 系統錯誤: {e}")
         sys.exit(1)
+        
